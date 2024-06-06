@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/sort_tongDiem"
+        android:title="Sắp xếp theo tổng điểm">
+        <menu>
+            <item android:id="@+id/td_tang"
+                android:title="Tăng" />
+            <item android:id="@+id/td_giam"
+                android:title="Giảm "/>
+        </menu>
+    </item>
+    <item android:id="@+id/sort_sbd"
+        android:title="Sắp xếp theo số báo danh">
+        <menu>
+            <item android:id="@+id/sbd_tang"
+                android:title="Tăng" />
+            <item android:id="@+id/sbd_giam"
+                android:title="Giảm "/>
+        </menu>
+    </item>
+    <item android:id="@+id/sort_dtb"
+        android:title="Sắp xếp theo điểm trung bình">
+        <menu>
+            <item android:id="@+id/dtb_tang"
+                android:title="Tăng" />
+            <item android:id="@+id/dtb_giam"
+                android:title="Giảm "/>
+        </menu>
+    </item>
+
+</menu>
